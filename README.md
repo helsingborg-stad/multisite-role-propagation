@@ -1,7 +1,3 @@
-# Wordpress Plugin Boilderplate
+# Multisite Role Propagination
 
-Copy the contents of the folder and run the below command, from the plugin folder, in your terminal to run the setup guide.
-
-```
-sh setup.sh
-```
+Plugin to quickly set a role for a multisite user on multiple blogs in a network
