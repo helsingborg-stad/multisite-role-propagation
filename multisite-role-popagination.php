@@ -25,7 +25,6 @@ define('MSROLEPROPAGINATION_TEMPLATE_PATH', MSROLEPROPAGINATION_PATH . 'template
 load_plugin_textdomain('multisite-role-popagination', false, plugin_basename(dirname(__FILE__)) . '/languages');
 
 require_once MSROLEPROPAGINATION_PATH . 'source/php/Vendor/Psr4ClassLoader.php';
-require_once MSROLEPROPAGINATION_PATH . 'Public.php';
 
 // Instantiate and register the autoloader
 $loader = new msRolePropagination\Vendor\Psr4ClassLoader();
