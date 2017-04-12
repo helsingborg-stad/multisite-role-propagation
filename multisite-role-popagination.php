@@ -2,11 +2,11 @@
 
 /**
  * Plugin Name:       Multisite Role Propagination
- * Plugin URI:        (#plugin_url#)
+ * Plugin URI:        https://github.com/helsingborg-stad/multisite-role-propagation
  * Description:       Plugin to quickly set a role for a multisite user on multiple blogs in a network
  * Version:           1.0.0
  * Author:            Sebastian Thulin
- * Author URI:        (#plugin_author_url#)
+ * Author URI:        https://github.com/sebastianthulin
  * License:           MIT
  * License URI:       https://opensource.org/licenses/MIT
  * Text Domain:       multisite-role-popagination
