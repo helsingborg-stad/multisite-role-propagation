@@ -1,0 +1,13 @@
+{
+    "name": "helsingborg-stad/multisite-role-propagation",
+    "description": "Plugin to quickly set a role for a multisite user on multiple blogs in a network",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Thulin",
+            "email": "sebastian.thulin@helsingborg.se"
+        }
+    ],
+    "require": {}
+}
