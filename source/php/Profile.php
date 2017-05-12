@@ -32,6 +32,10 @@ class Profile
             return;
         }
 
+        if (!is_network_admin()) {
+            return;
+        }
+
         if (file_exists(MSROLEPROPAGINATION_TEMPLATE_PATH . 'profile.php')) {
 
             //Get data for view
@@ -55,6 +59,10 @@ class Profile
     {
         //Authentication check
         if (!is_super_admin()) {
+            return;
+        }
+
+        if (!is_network_admin()) {
             return;
         }
 
