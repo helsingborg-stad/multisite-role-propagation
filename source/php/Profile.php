@@ -40,7 +40,7 @@ class Profile
 
             //Get data for view
             $data = array(
-                'sites' => array_chunk(get_sites(), 3),
+                'sites' => array_chunk(get_sites(['number' => 500]), 3),
                 'savedState' => $this->getUserRoles($user->ID)
             );
 
