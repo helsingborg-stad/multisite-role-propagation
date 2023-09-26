@@ -9,10 +9,11 @@
             "email": "sebastian.thulin@helsingborg.se"
         }
     ],
-    "require": {},
+    "require": [],
     "autoload": {
         "psr-4": {
             "msRolePropagination\\": "source/php/"
         }
-    }
+    },
+    "version": "2.0.0"
 }
