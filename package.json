@@ -1,6 +1,6 @@
 {
     "name": "multisite-role-popagination",
-    "version": "3.0.2",
+    "version": "3.0.3",
     "description": "Plugin to quickly set a role for a multisite user on multiple blogs in a network",
     "main": "",
     "scripts": {
