@@ -93,7 +93,7 @@ class Profile
     {
         $roles = array();
 
-        foreach ((array) get_sites() as $site) {
+        foreach ((array) get_sites(['number' => 500]) as $site) {
 
             //Get user role
             if ($site->blog_id != 1) {
