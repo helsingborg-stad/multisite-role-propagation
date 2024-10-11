@@ -21,7 +21,7 @@
                 //Switch to site
                 switch_to_blog($site->blog_id);
 
-                echo '<td ' . ($siteChunk % 2) . '>';
+                echo '<td>';
                 echo '<label>';
 
                 echo '<span style="font-weight: bold;" class="ellipsis">' . get_option('blogname') . '</span>';
